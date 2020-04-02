@@ -38,6 +38,9 @@ To use it:
 4. [start the Emacs
    server](https://www.gnu.org/software/emacs/manual/html_node/emacs/Emacs-Server.html)
    (for example with `M-x server-start` or `emacs --daemon`)
+
+   - Alternatively you can add `(server-start)` inside `init.el` or `.emacs` file.
+
 5. open a Finder window and ctrl-click a file.
 6. select 'Open with' then 'Other...'
 7. a file sector pops up: find and select withEmacs
@@ -61,6 +64,9 @@ To use it:
 4. [start the Emacs
    server](https://www.gnu.org/software/emacs/manual/html_node/emacs/Emacs-Server.html)
    (for example with `M-x server-start` or `emacs --daemon`)
+
+   - Alternatively you can add `(server-start)` inside `init.el` or `.emacs` file.
+
 5. open a Finder window and ctrl-click a file.
 6. select 'Services >' from the bottom of the popup menu
 7. select 'withEmacs'.
