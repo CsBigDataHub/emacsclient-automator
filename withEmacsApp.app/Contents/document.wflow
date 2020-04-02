@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>exec "/usr/local/bin/emacsclient" $@</string>
+					<string>exec "/Applications/Emacs.app/Contents/MacOS/bin/emacsclient" $@</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
