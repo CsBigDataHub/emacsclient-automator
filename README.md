@@ -18,11 +18,11 @@ Emacs window, but it is nice to bypass this as we do with other apps.
 Choose either the app or the service, instructions below: you might
 not need both.
 
-⚠️**Warning** these are hardcoded to the path Homebrew uses for
-emacsclient: `/usr/local/bin/emacsclient`. If your emacsclient is
-elsewhere, you *must edit* the workflow. If you use
-[emacsformacosx](https://emacsformacosx.com/) the typical path is
-`/Applications/Emacs.app/Contents/MacOS/bin/emacsclient` ⚠️
+⚠️**Warning** ``emacsclient` is hardcoded to `/Applications/Emacs.app/Contents/MacOS/bin/emacsclient`
+which is typical if emacs is installed from [emacsformacosx](https://emacsformacosx.com/) . However
+if installed with Homebrew please change the path in `withEmacs.workflow/Contents/document.wflow` and
+`withEmacsApp.app/Contents/document.wflow` to : `/usr/local/bin/emacsclient`. If your emacsclient is
+elsewhere, you *must edit* the workflow. ⚠️
 
 ## App
 
